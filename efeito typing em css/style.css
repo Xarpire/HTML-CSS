@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #182532;
+    color: #f5f7f9;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    margin: 100px auto auto 50px;
+}
+
+h1{
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+
+p{
+    width: 380px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+
+    animation: typing 2s steps(22), blink 0.5s, step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
