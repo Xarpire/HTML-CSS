@@ -1,0 +1,53 @@
+.fogos {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    overflow: hidden;
+  }
+  
+  .estrela {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: explodir 5s infinite;
+  }
+  
+  @keyframes explodir {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(50);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(100);
+      opacity: 0;
+    }
+  }
+  
+  .estrela:nth-child(1) {
+    top: 50%;
+    left: 50%;
+    animation-delay: 0s;
+  }
+  
+  .estrela:nth-child(2) {
+    top: 30%;
+    left: 20%;
+    animation-delay: 1s;
+  }
+  
+  .estrela:nth-child(3) {
+    top: 70%;
+    left: 80%;
+    animation-delay: 2s;
+  }
+  
+  /* Adicione mais estrelas com diferentes delays */
+  
+  

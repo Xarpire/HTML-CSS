@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+   }
+   
+   #form-participantes {
+    margin-top: 20px;
+   }
+   
+   #participantes {
+    width: 50%;
+    height: 30px;
+    font-size: 18px;
+    padding: 10px;
+   }
+   
+   #btn-gerar {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+   
+   #resultado {
+    margin-top: 20px;
+   }
+   

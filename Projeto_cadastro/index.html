@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Aqui temos alguns projetos de cadastro</h1>
+    <p><li>Os projetos aqui apresentados consistem de uma tela de cadastro de usuários com a apresentação de uma lista dos usuários cadastrados</li></p>
+    <p><li>Uma lista de compras onde é feita a realização da inclusão dos itens por meio de uma seleção de itens e se não constar na lista pode ser feita a inclusão manual de novos itens e a quantidade. Na finalização da lista ela e apresentada em modo de tabela com a opção de checklist para marcar o que já foi pego. tendo a opção de exportar a lista em pdf ou outro formato caso queira imprimir. </li></p>
+
+    <div id="container-login">
+        <h1>Cadastre os membros</h1>
+        <form id="logincad">
+            <label for="nomescad">Nome</label>
+            <input type="text" name="nomescad" id="nomescad" placeholder="Digite o nome" required>
+            <label for="senhacad">Senha</label>
+            <input type="password" name="senhacad" id="senhacad" placeholder="Digite a senha" required>
+
+        </form>
+
+        <button onclick="cadastras()" type="submit" value="enviar-cadastro" id="btn-logincad">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Enviar cadastro
+        </button>
+    </div>
+    
+</body>
+</html>
